@@ -8,9 +8,10 @@ There are many benefits to this:
 - ...etc (fill out later)
 
 Tech used:
-- [Yarn](https://yarnpkg.com/lang/en/)
-- [Travis CI](https://travis-ci.org/)
-- [Docker](https://www.docker.com/)
+- [Jest](https://jestjs.io/) - A popular and reliable javascript unit testing framework
+- [Yarn](https://yarnpkg.com/lang/en/) - A package manager
+- [Travis CI](https://travis-ci.org/) - A continuous integration service
+- [Docker](https://www.docker.com/) - A platform for creating and working with containers
 
 
 ## Instructions
