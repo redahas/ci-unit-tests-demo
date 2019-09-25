@@ -9,5 +9,5 @@ services:
 before_install:
   - docker build -t sredahan/ci-unit-tests -f Dockerfile.dev .
 script:
-  - docker run sredahan/ci-unit-test yarn run test -- --coverage
+  - docker run sredahan/ci-unit-tests yarn run test --coverage
 
