@@ -19,5 +19,12 @@ Tech used:
 TODO
 
 
+##Links:
+
+###Jest Docs
+- [expect api](https://jestjs.io/docs/en/expect#methods)
+- [test.each](https://jestjs.io/docs/en/api#testeachtable-name-fn-timeout)
+
+
 
 Thanks for checking this out! ( ಠ ͜ʖ ಠ)	
