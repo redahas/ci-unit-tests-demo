@@ -22,4 +22,4 @@ Tech used:
 
 
 
-Thanks for checking this out! ( ಠ ͜ʖ ಠ)	
+Thanks for checking this out!  ( ಠ ͜ʖ ಠ)	
