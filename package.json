@@ -10,7 +10,8 @@
   "scripts": {
     "build": "webpack",
     "serve": "webpack-dev-server",
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --coverage --coverageDirectory=output/coverage/jest"
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.6.2",
@@ -28,6 +29,10 @@
     "testPathIgnorePatterns": [
       "node_modules/",
       ".history/"
+    ],
+    "coverageReporters": [
+      "text",
+      "html"
     ]
   },
   "dependencies": {

@@ -26,7 +26,7 @@ test('fetchUser: API call successful', async () => {
 /**
  * Async function rejects via mocked dependency
  */
-test('fetchUser: API call successful', async () => {
+test('fetchUser: API call unsuccessful', async () => {
   const mockError = 'Async error';
 
   axios.get.mockRejectedValue(mockError);
