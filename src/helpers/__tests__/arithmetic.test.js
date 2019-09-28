@@ -1,16 +1,22 @@
 import { add, getSum } from '../arithmetic';
 
+test('Add function, positive params', () => {
+  const result = add(2, 7);
 
-test.each`
-  a             | b         | expected
-  ${5}          | ${7}      | ${12}
-  ${0}          | ${-7}     | ${-7}
-  ${undefined}  | ${7}      | ${7}
-  ${'9'}        | ${10}     | ${19}
-  ${0.120}       | ${12.33}  | ${12.45}
-  `('add: $a plus $b should equal $expected', () => {
-  expect(add(2, 2)).toEqual(4);
+  expect(result).toEqual(9);
 });
+
+// test.each`
+//   a             | b             | expected
+//   ${5}          | ${7}          | ${12}
+//   ${0}          | ${-7}         | ${-7}
+//   ${undefined}  | ${7}          | ${7}
+//   ${undefined}  | ${undefined}  | ${7}
+//   ${'9'}        | ${10}         | ${19}
+//   ${0.120}       | ${12.33}     | ${12.45}
+//   `('add: $a plus $b should equal $expected', () => {
+//   expect(add(2, 2)).toEqual(4);
+// });
 
 
 test.each([
