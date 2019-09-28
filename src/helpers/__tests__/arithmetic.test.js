@@ -1,24 +1,18 @@
-import { getSum } from '../arithmetic';
-
-// Option
-// test('add: Adds two numbers together', () => {
-//   expect(add(2, 2)).toEqual(4);
-// });
-
-// Option 2
-// test.each`
-//   a             | b         | expected
-//   ${5}          | ${7}      | ${12}
-//   ${0}          | ${-7}     | ${-7}
-//   ${undefined}  | ${7}      | ${7}
-//   ${'9'}        | ${10}     | ${19}
-//   ${0.120}       | ${12.33}  | ${12.45}
-//   `('add: $a plus $b should equal $expected', () => {
-//   expect(add(2, 2)).toEqual(4);
-// });
+import { add, getSum } from '../arithmetic';
 
 
-// Option 3
+test.each`
+  a             | b         | expected
+  ${5}          | ${7}      | ${12}
+  ${0}          | ${-7}     | ${-7}
+  ${undefined}  | ${7}      | ${7}
+  ${'9'}        | ${10}     | ${19}
+  ${0.120}       | ${12.33}  | ${12.45}
+  `('add: $a plus $b should equal $expected', () => {
+  expect(add(2, 2)).toEqual(4);
+});
+
+
 test.each([
   [
     'Positive numbers', // scenario description

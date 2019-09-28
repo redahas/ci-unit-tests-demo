@@ -14,14 +14,9 @@ Tech used:
 - [Docker](https://www.docker.com/) - A platform for creating and working with containers
 
 
-## Instructions
+## Links:
 
-TODO
-
-
-##Links:
-
-###Jest Docs
+### Jest Docs
 - [expect api](https://jestjs.io/docs/en/expect#methods)
 - [test.each](https://jestjs.io/docs/en/api#testeachtable-name-fn-timeout)
 
